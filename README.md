@@ -7,6 +7,12 @@
 3. Connect the Arduino-based device to the testing PC via USB cable
 4. double click the uploader.bat
 
+## Where to find the firmware.hex ##
+
+If you are using Arduino IDE, you could find [tutorial](http://arduinoisfun.blogspot.com/2016/01/taking-out-hex-file-from-arduino.html) here.
+
+I suggest to use [platformio](http://platformio.org), which is very simple and easy. After compiling your project, you will find firmware.hex in the .pioenvs\PLATFORM\
+
 ## How to modify the uploader.bat ## 
 
 This bat file uses [ArduinoSketchUploader](https://github.com/christophediericx/ArduinoSketchUploader) 3.2 by Christophe Diericx
