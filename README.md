@@ -9,7 +9,7 @@
 
 ## How to modify the uploader.bat
 
-This bat file uses ArduinoSketchUploader 3.2 by Christophe Diericx (https://github.com/christophediericx/ArduinoSketchUploader)
+This bat file uses [ArduinoSketchUploader](https://github.com/christophediericx/ArduinoSketchUploader) 3.2 by Christophe Diericx
 
 The usage are
 ```
@@ -26,14 +26,11 @@ The usage are
   --help         Display this help screen.
   
 ```
-
 A sample command line invocation (for a Mega2560 type Arduino attached to COM4):
 ```
-
 ArduinoSketchUploader.exe --file=C:\MyHexFiles\myHexFile.hex --port=COM4 --model=Mega2560
 ```
 If only a single COM port is in use on the system (used by the attached Arduino), one can omit the port:
 ```
 ArduinoSketchUploader.exe --file=C:\MyHexFiles\myHexFile.hex --model=UnoR3
-
 ```
