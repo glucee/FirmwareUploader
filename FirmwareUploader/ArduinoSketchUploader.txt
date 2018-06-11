@@ -1,0 +1,4 @@
+2018-06-08 18:01:24.7843|INFO|ArduinoSketchUploader|Starting ArduinoSketchUploader...
+2018-06-08 18:01:24.8228|INFO|ArduinoSketchUploader|Starting upload process for file 'firmware.hex'.
+2018-06-08 18:01:24.8709|ERROR|ArduinoSketchUploader|Sequence contains more than one element
+2018-06-08 18:01:24.8709|ERROR|ArduinoSketchUploader|Unexpected exception: Sequence contains more than one element!
